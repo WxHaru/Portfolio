@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/css/coding.css">
+    <title>Website Development</title>
+</head>
+<body id="mainbackgroundcoding">
+    <%- include ('partials/navbar.ejs') %>
+    <div class="container mt-5">
+        <div class="text-center mb-4">
+            <h2 id="c1">My Coding Projects</h2>
+            <p id="c1">Welcome to my design portfolio! Click on them to check out the different works I have done in my coding modules.</p>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-4">
+                <div class="contact-box">
+                    <i class="bi bi-file-earmark-text"></i>
+                    <h3>HTML & Javascript & CSS</h3>
+                    <a href="/htmljavascriptcss" class="btn btn-primary">HTML & Javascript & CSS</a>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="contact-box">
+                    <i class="bi bi-file-earmark-text"></i>
+                    <h3>Mobile App Development</h3>
+                    <a href="/mobileapp" class="btn btn-primary">Mobile App Development</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+#hheader1{color: white;
+  font-family: "Arial";
+  text-align: center;
+}
+
+#navbar{ border-style: solid;
+  border-color: white;}
+
+#homebartext{ color: darkblue;
+    font-family: "Arial";}
+#aboutbartext{ color: darkblue;
+    font-family: "Arial";}
+#projectbartext{ color: darkblue;
+    font-family: "Arial";}
+#contactbartext{ color: darkblue;
+    font-family: "Arial";}
+
+#mainbackgroundindex{ background-color: darkblue;}
+
+#portfolioimage {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 200%; /* Adjust to control size of image */
+  height: auto;
+}
+
+/* Align the items horizontally */
+.nav-pills {
+  display: flex;
+  align-items: center; /* Vertical alignment */
+}
+
+#logo {
+  margin-right: 20px; /* Add some space between the logo and the navbar items */
+}
+
+.nav-link {
+  color: darkblue; 
+  background-color: transparent; 
+  padding: 10px 15px;
+  font-size: 18px; 
+  text-decoration: none; 
+}
+
+/* Optional: Adjust the dropdown menu styling */
+.dropdown-menu {
+  background-color: #fff; 
+  border: 1px solid #ccc; 
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa; /* Light hover background for dropdown items */
+  color: darkblue; /* Hover text color */
+}

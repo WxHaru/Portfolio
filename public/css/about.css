@@ -1,0 +1,26 @@
+#mainbackgroundabout{ background-color: darkblue;}
+
+#h1{color: white;
+  font-family: "Arial";
+  text-align: center;
+}
+
+#cardh1{color: darkblue;
+  font-family: "Arial";
+}
+
+#cardsh1{color: darkblue;
+  font-family: "Arial";
+}
+
+#cardb1{color: white;
+  font-family: "Arial";
+}
+
+.col-md-6 img {
+  margin-left: 40px; /* Adjust the margin value as needed */
+}
+
+.skill-icon {
+  padding: 50px; /* Adjust the padding value as needed */
+}

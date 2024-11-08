@@ -1,0 +1,34 @@
+#profilecolor1{ color: white;
+  font-family: "Arial";}
+
+#profilecolor2{ color: white;
+  font-family: "Arial";}
+
+#mainbackgroundprofile{ background-color: darkblue;}
+
+.profile-container {
+    display: flex; /* Makes the container a flexbox */
+    flex-direction: row;  /* Arrange elements side-by-side */
+    align-items: center; /* Vertically centers child elements */
+}
+  
+.profile-container img {
+    width: 400px; /* Adjust the width as needed */
+    height: 500px;
+    border-radius: 50%;
+    margin-right: 50px; /* Add spacing between photo and text */
+}
+  
+.profile-text {
+    flex: 1; /* Allows text to expand and fill remaining space */
+}
+  
+.profile-text h1 {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    margin: 0; /* Remove default margin for better alignment */
+}
+  
+.profile-text p {
+    font-size: 1rem; /* Adjust font size as needed */
+    margin: 0.5rem 0; /* Add top and bottom margin */
+}

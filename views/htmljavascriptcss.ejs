@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Website Development</title>
+</head>
+<body id="mainbackgroundcoding">
+    <%- include ('partials/navbar.ejs') %>
+    <div class="container mt-5">
+        <div class="text-center mb-4">
+            <h2 id="c1">My Coding Project</h2>
+            <p id="c1">Below is one of my projects. Click on it to explore more about it!</p>
+        </div>
+
+        <!-- Mini-Project -->
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <!-- Clickable Image that triggers the modal -->
+                <a href="#" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                    <img src="/images/Coding1.png" class="img-fluid" alt="Project 1">
+                </a>
+            </div>
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+                <h3 id="c2">Coding Mini-Project</h3>
+                <p id="c2">A Twice Membership fan page, meant for fans to log in and support Twice, such as voting for them. 
+                    It also allows fans to visit their dischography and the about idol pages to know more about them and Twice's history.
+                </p>
+            </div>
+        </div>
+
+        <!-- Modals Section -->
+        <!-- Mini-Project Modal with Carousel -->
+        <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Bootstrap Carousel for Mini-Project Images -->
+                        <div id="project1Carousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <!-- First Image -->
+                                <div class="carousel-item active">
+                                    <img src="/images/Coding1.png" class="d-block w-100" alt="Coding Mini-Project Image 1">
+                                </div>
+                                <!-- Second Image -->
+                                <div class="carousel-item">
+                                    <img src="/images/Coding2.png" class="d-block w-100" alt="Coding Mini-Project Image 2">
+                                </div>
+                                <!-- Third Image -->
+                                <div class="carousel-item">
+                                    <img src="/images/Coding3.png" class="d-block w-100" alt="Coding Mini-Project Image 3">
+                                </div>
+                                <!-- Fourth Image -->
+                                <div class="carousel-item">
+                                    <img src="/images/Coding4.png" class="d-block w-100" alt="Coding Mini-Project Image 4">
+                                </div>
+                                <!-- Fifth Image -->
+                                <div class="carousel-item">
+                                    <img src="/images/Coding5.png" class="d-block w-100" alt="Coding Mini-Project Image 5">
+                                </div>
+                                <!-- Sixth Image -->
+                                <div class="carousel-item">
+                                    <img src="/images/Coding6.png" class="d-block w-100" alt="Coding Mini-Project Image 6">
+                                </div>
+                            </div>
+
+                            <!-- Carousel Controls -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#project1Carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#project1Carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <a id="" href="/coding" class="btn btn-primary">Back</a>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
