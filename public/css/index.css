@@ -1,6 +1,6 @@
 #hheader1{color: white;
   font-family: "Arial";
-  text-align: center;
+  text-align: left;
   font-size: 50px;
 }
 
@@ -19,7 +19,7 @@
 #aspiring-designer {
   font-size: 23px;
   margin: 5px 0;
-  text-align: center;
+  text-align: left;
   color: white;
   font-family: "Arial"
 }

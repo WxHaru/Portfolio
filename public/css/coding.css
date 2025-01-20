@@ -14,6 +14,7 @@
     color: blue;
     transition: transform 0.3s;
     margin: 0 10px; /* Optional margin */
+    text-align: center;
 }
   
 .row.my-5 {
